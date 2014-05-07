@@ -1,6 +1,6 @@
-(ns proj-euler.problem4-test
+(ns euler.problem4-test
   (:require [expectations :refer :all]
-            [proj-euler.problem4 :refer :all]))
+            [euler.problem4 :refer :all]))
 
 ;; Flip a couple of numbers
 (expect 242 (flip 242))

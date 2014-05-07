@@ -1,6 +1,6 @@
-(ns proj-euler.problem21-test
+(ns euler.problem21-test
   (:require [expectations :refer :all]
-            [proj-euler.problem21 :refer :all]))
+            [euler.problem21 :refer :all]))
 
 ;; expect proper divisors of 220
 (expect [1 2 4 5 10 11 20 22 44 55  110] (divisor 220))

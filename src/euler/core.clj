@@ -1,4 +1,8 @@
-(ns proj-euler.core)
+(ns euler.core)
+
+(defmacro dbg[x] `(let [x# ~x] (println '~x "=" x#) x#))
+
+(def natural-numbers (iterate inc 1))
 
 (defn- factors [n candidate]
    (cond (< n candidate) []
@@ -10,5 +14,3 @@
 
 (defn largest-prime [n]
   (apply max (prime-factors n)))
-
-

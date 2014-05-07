@@ -1,6 +1,7 @@
-(ns proj-euler.core-test
+(ns euler.core-test
   (:require [expectations :refer :all]
-            [proj-euler.core :refer :all]))
+            [euler.core :refer :all]))
+
 
 ;; The prime factor of nothing
 (expect [] (prime-factors 0))

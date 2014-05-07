@@ -1,4 +1,4 @@
-(ns proj-euler.problem21)
+(ns euler.problem21)
 
 (defn divisor
   "Returns the proper divisors of number n"
