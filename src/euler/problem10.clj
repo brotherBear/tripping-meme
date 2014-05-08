@@ -25,3 +25,5 @@
 
 (time (take 5 (drop 145000 primes)))
 
+;; Euler problem 7 - find the 10001 st primes
+(first (drop 10000 primes))
