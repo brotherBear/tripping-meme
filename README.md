@@ -1,10 +1,10 @@
-# proj-euler
+# tripping-meme
 
 A Clojure project for trying out various ideas while learning Clojure.
 
 ## Usage
 
-Read the code if you like.
+Read the code if you like. 
 
 ## License
 
