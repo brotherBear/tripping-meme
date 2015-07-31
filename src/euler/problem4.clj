@@ -17,9 +17,13 @@
   (cond (= number (flip number)) true
         :else false))
 
-(def three-digit-numbers  (reverse (range 900 1000)))
+(def three-digit-numbers  (reverse (range 9900 10000)))
 
 (def products (for [a three-digit-numbers
                     b three-digit-numbers
                     :when (< a b)]
                 (* a b)))
+
+(count products)
+
+(sort > (filter is-palindrome? products))
